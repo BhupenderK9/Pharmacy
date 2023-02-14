@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function handleSelect(elm)
+{
+	 document.getElementById('myIframe').src = elm.value+".jsp";
+}
+</script>
+
+</head>
+<body>
+
+
+ djejnjene
+ ke2me2ede
+ dke2mekeexx
+ 
+ <select name="formal" onchange="javascript:handleSelect(this)" style="background-color:blue;">
+<option value="patient">patient</option>
+<option value="CreatePatient">Home</option>
+<option value="contact">Contact</option>
+</select>
+ <br><br>
+ 
+ 
+<iframe src="demo_iframe.htm" name="iframe_a" id="myIframe" style="width:100%;height:500px;"></iframe>
+
+
+</body>
+</html>
